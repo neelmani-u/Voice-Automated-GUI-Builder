@@ -1,71 +1,146 @@
 {
     "intents":[
         {
-            "tag":"greeting",
-            "patterns":["hello","hii","hey","wake up","jarvis"
+            "tag":"open",
+            "patterns":[
+                "open qt designer",
+                "start qt designer",
+                "open designer",
+                "open qt"
             ],
-            "responses":["Hello Sir","How Are You Sir.","Always For You Sir",
-                "Hello","Here's Your Assistant."
-            ]
+            "responses":["open qt designer"]
         },
         {
-            "tag":"bye",
-            "patterns":["bye","goodbye","see you later","sleep","exit"
+            "tag":"open",
+            "patterns":[
+                "open new form dialog",
+                "open startup dialog",
+                "show startup dialog",
+                "show new form dialog"
             ],
-            "responses":["Bye.","I am Going.","Bye Sir.","Good Bye",
-                "It'll be Nice To Meet You Again.","See You Later"
-            ]
+            "responses":["open startup dialog"]
         },
         {
-            "tag":"health",
-            "patterns":["how are you","how you","are you fine?","are you good"
+            "tag":"open",
+            "patterns":[
+                "open already saved ui file",
+                "open file",
+                "select file"
             ],
-            "responses":["Fine.","Perfect.","Cool.",
-                "Like You.","Are you Fine? I'm Fine."
-            ]
+            "responses":["open ui file"]
         },
         {
-            "tag":"identity",
-            "patterns":["your name","what is your name","who are you","what are you"
+            "tag":"select",
+            "patterns":[
+                "select main window",
+                "create main window new form"
             ],
-            "responses":["Jarvis","I Am Jarvis.","An A.I Assistant.",
-                "My Name is Jarvis.","Great Assistant"
-            ]
+            "responses":["select main window form"]
         },
         {
-            "tag":"time",
-            "patterns":["what is time","time","samay","what's the time"
+            "tag":"select",
+            "patterns":[
+                "select widget",
+                "create new widget"
             ],
-            "responses":["time"
-            ]
+            "responses":["select new widget"]
         },
         {
-            "tag":"date",
-            "patterns":["what is date","date","tareek","what's the date"
+            "tag":"select",
+            "patterns":[
+                "select dialog without button template",
+                "create dialog without button form"
             ],
-            "responses":["date"
-            ]
+            "responses":["select dialog without button"]
         },
         {
-            "tag":"day",
-            "patterns":["what is day","day","din","what's the day","today"
+            "tag":"select",
+            "patterns":[
+                "select dialog with right buttons",
+                "create dialog with right buttons"
             ],
-            "responses":["day"
-            ]
+            "responses":["select dialog with right buttons"]
         },
         {
-            "tag":"wikipedia",
-            "patterns":["who is","about","what is","wikipedia"
+            "tag":"select",
+            "patterns":[
+                "select dialog with bottom buttons",
+                "create dialog with bottom buttons"
             ],
-            "responses":["wikipedia"
-            ]
+            "responses":["select dialog with bottom buttons"]
         },
         {
-            "tag":"google",
-            "patterns":["google search","google","search"
+            "tag":"close",
+            "patterns":[
+                "close startup dialog",
+                "close new form dialog"
             ],
-            "responses":["google"
-            ]
+            "responses":["close startup dialog"]
+        },
+        {
+            "tag":"close",
+            "patterns":[
+                "close qt designer",
+                "close designer",
+                "close qt"
+            ],
+            "responses":["close qt designer"]
+        },
+        {
+            "tag":"drag to top",
+            "patterns":[
+                "drag push button to window at upper side",
+                "drag push button to top of window"
+            ],
+            "responses":["drag push button to top of window"]
+        },
+        {
+            "tag":"drag to bottom",
+            "patterns":[
+                "drag push button to window at lower side",
+                "drag push button to bottom of window"
+            ],
+            "responses":["drag push button to bottom of window"]
+        },
+        {
+            "tag":"drag to left",
+            "patterns":[
+                "drag push button to window at left side",
+                "drag push button to left of window"
+            ],
+            "responses":["drag push button to left of window"]
+        },
+        {
+            "tag":"drag to right",
+            "patterns":[
+                "drag push button to window at right side",
+                "drag push button to right of window"
+            ],
+            "responses":["drag push button to right of window"]
+        },
+        {
+            "tag":"drag to center",
+            "patterns":[
+                "drag push button to window at center",
+                "drag push button to center of window"
+            ],
+            "responses":["drag push button to center of window"]
+        },
+        {
+            "tag":"create login form",
+            "patterns":[
+                "create simple login form",
+                "basic login form"
+            ],
+            "responses":["create login form"]
+        },
+        {
+            "tag":"create signup form",
+            "patterns":[
+                "create simple signup form",
+                "basic signup form"
+            ],
+            "responses":["create signup form"]
         }
     ]
 }

@@ -1,0 +1,510 @@
+Control Identifiers:
+
+Dialog - 'Qt Designer'    (L400, T186, R1360, B880)
+['Qt DesignerDialog', 'Dialog', 'Qt Designer', 'Dialog0', 'Dialog1']
+child_window(title="Qt Designer", auto_id="MDIWindow", control_type="Window")
+   |
+   | Dialog - 'New Form'    (L630, T318, R1130, B718)
+   | ['Dialog2', 'New Form', 'New FormDialog']
+   | child_window(title="New Form", control_type="Window")
+   |    |
+   |    | TitleBar - ''    (L646, T290, R1130, B318)
+   |    | ['TitleBar', 'TitleBar0', 'TitleBar1']
+   |    |    |
+   |    |    | Menu - 'System'    (L630, T295, R652, B317)
+   |    |    | ['Menu', 'SystemMenu', 'System', 'System0', 'System1', 'Menu0', 'Menu1', 'SystemMenu0', 'SystemMenu1']
+   |    |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    |    |
+   |    |    |    | MenuItem - 'System'    (L630, T295, R652, B317)
+   |    |    |    | ['System2', 'SystemMenuItem', 'MenuItem', 'SystemMenuItem0', 'SystemMenuItem1', 'MenuItem0', 'MenuItem1']
+   |    |    |    | child_window(title="System", control_type="MenuItem")
+   |    |    |
+   |    |    | Button - 'Close'    (L1097, T288, R1131, B318)
+   |    |    | ['Button', 'CloseButton', 'Close', 'Button0', 'Button1', 'CloseButton0', 'CloseButton1', 'Close0', 'Close1']
+   |    |    | child_window(title="Close", control_type="Button")
+   |    |
+   |    | GroupBox - ''    (L641, T329, R1119, B646)
+   |    | ['GroupBox', 'Device:GroupBox', 'GroupBox0', 'GroupBox1', 'Device:GroupBox0', 'Device:GroupBox1']
+   |    |    |
+   |    |    | TreeView - ''    (L642, T330, R860, B645)
+   |    |    | ['TreeView', 'TreeView0', 'TreeView1']
+   |    |    |
+   |    |    | Image - ''    (L866, T330, R1118, B532)
+   |    |    | ['Image']
+   |    |    |
+   |    |    | GroupBox - 'Embedded Design'    (L873, T566, R1116, B645)
+   |    |    | ['GroupBox2', 'Embedded DesignGroupBox', 'Embedded Design', 'Embedded Design0', 'Embedded Design1']
+   |    |    | child_window(title="Embedded Design", control_type="Group")
+   |    |    |    |
+   |    |    |    | ComboBox - 'Embedded Design'    (L948, T589, R1106, B609)
+   |    |    |    | ['ComboBox', 'Embedded Design2', 'Embedded DesignComboBox', 'ComboBox0', 'ComboBox1', 'Embedded DesignComboBox0', 'Embedded DesignComboBox1']
+   |    |    |    | child_window(title="Embedded Design", control_type="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListBox', 'ListBox0', 'ListBox1']
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'None'    (L0, T0, R640, B13)
+   |    |    |    |    |    | ['NoneListItem', 'ListItem', 'None', 'ListItem0', 'ListItem1']
+   |    |    |    |    |    | child_window(title="None", control_type="ListItem")
+   |    |    |    |
+   |    |    |    | ComboBox - 'Embedded Design'    (L948, T615, R1106, B635)
+   |    |    |    | ['ComboBox2', 'Embedded Design3', 'Embedded DesignComboBox2']
+   |    |    |    | child_window(title="Embedded Design", control_type="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListBox2']
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'Default size'    (L0, T0, R640, B13)
+   |    |    |    |    |    | ['ListItem2', 'Default sizeListItem', 'Default size']
+   |    |    |    |    |    | child_window(title="Default size", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'QVGA portrait (240x320)'    (L0, T13, R640, B26)
+   |    |    |    |    |    | ['QVGA portrait (240x320)', 'ListItem3', 'QVGA portrait (240x320)ListItem']
+   |    |    |    |    |    | child_window(title="QVGA portrait (240x320)", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'QVGA landscape (320x240)'    (L0, T26, R640, B39)
+   |    |    |    |    |    | ['ListItem4', 'QVGA landscape (320x240)', 'QVGA landscape (320x240)ListItem']
+   |    |    |    |    |    | child_window(title="QVGA landscape (320x240)", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'VGA portrait (480x640)'    (L0, T39, R640, B52)
+   |    |    |    |    |    | ['VGA portrait (480x640)ListItem', 'VGA portrait (480x640)', 'ListItem5']
+   |    |    |    |    |    | child_window(title="VGA portrait (480x640)", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'VGA landscape (640x480)'    (L0, T52, R640, B65)
+   |    |    |    |    |    | ['VGA landscape (640x480)ListItem', 'ListItem6', 'VGA landscape (640x480)']
+   |    |    |    |    |    | child_window(title="VGA landscape (640x480)", control_type="ListItem")
+   |    |    |    |
+   |    |    |    | Static - 'Device:'    (L883, T589, R942, B609)
+   |    |    |    | ['Static', 'Device:', 'Device:Static', 'Static0', 'Static1']
+   |    |    |    | child_window(title="Device:", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - 'Screen Size:'    (L883, T615, R942, B635)
+   |    |    |    | ['Static2', 'Screen Size:', 'Screen Size:Static']
+   |    |    |    | child_window(title="Screen Size:", control_type="Text")
+   |    |
+   |    | Custom - ''    (L641, T652, R1119, B655)
+   |    | ['Screen Size:Custom', 'Custom', 'Screen Size:Custom0', 'Screen Size:Custom1', 'Custom0', 'Custom1']
+   |    |
+   |    | CheckBox - 'Show this Dialog on Startup'    (L641, T661, R794, B678)
+   |    | ['Show this Dialog on Startup', 'CheckBox', 'Show this Dialog on StartupCheckBox', 'CheckBox0', 'CheckBox1']
+   |    | child_window(title="Show this Dialog on Startup", control_type="CheckBox")
+   |    |
+   |    | GroupBox - ''    (L641, T684, R1119, B707)
+   |    | ['GroupBox3', 'Screen Size:GroupBox', 'Screen Size:GroupBox0', 'Screen Size:GroupBox1']
+   |    |    |
+   |    |    | Button - 'Close'    (L1044, T684, R1119, B707)
+   |    |    | ['Button2', 'CloseButton2', 'Close2']
+   |    |    | child_window(title="Close", control_type="Button")
+   |    |    |
+   |    |    | Button - 'Create'    (L801, T684, R876, B707)
+   |    |    | ['Button3', 'CreateButton', 'Create']
+   |    |    | child_window(title="Create", control_type="Button")
+   |    |    |
+   |    |    | Button - 'Open...'    (L882, T684, R957, B707)
+   |    |    | ['Button4', 'Open...Button', 'Open...']
+   |    |    | child_window(title="Open...", control_type="Button")
+   |    |    |
+   |    |    | Button - 'Recent'    (L963, T684, R1038, B707)
+   |    |    | ['Button5', 'Recent', 'RecentButton']
+   |    |    | child_window(title="Recent", control_type="Button")
+   |
+   | TitleBar - ''    (L416, T158, R1360, B186)
+   | ['TitleBar2']
+   |    |
+   |    | Menu - 'System'    (L400, T163, R422, B185)
+   |    | ['Menu2', 'SystemMenu2', 'System3']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    |
+   |    |    | MenuItem - 'System'    (L400, T163, R422, B185)
+   |    |    | ['System4', 'SystemMenuItem2', 'MenuItem2']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    |
+   |    | Button - 'Minimize'    (L1221, T156, R1268, B186)
+   |    | ['Button6', 'MinimizeButton', 'Minimize']
+   |    | child_window(title="Minimize", control_type="Button")
+   |    |
+   |    | Button - 'Maximize'    (L1268, T156, R1314, B186)
+   |    | ['Button7', 'Maximize', 'MaximizeButton']
+   |    | child_window(title="Maximize", control_type="Button")
+   |    |
+   |    | Button - 'Close'    (L1314, T156, R1361, B186)
+   |    | ['Button8', 'CloseButton3', 'Close3']
+   |    | child_window(title="Close", control_type="Button")
+   |
+   | Dialog - 'Resource Browser'    (L848, T696, R1360, B839)
+   | ['Resource BrowserDialog', 'Dialog3', 'Resource Browser', 'Resource Browser0', 'Resource Browser1']
+   | child_window(title="Resource Browser", auto_id="MDIWindow.qt_designer_resourceeditor_dock", control_type="Window")
+   |    |
+   |    | Dialog - ''    (L848, T718, R1360, B839)
+   |    | ['Screen Size:Dialog', 'Dialog4']
+   |    | child_window(auto_id="MDIWindow.qt_designer_resourceeditor_dock.qt_designer_resourceeditor", control_type="Window")
+   |    |    |
+   |    |    | GroupBox - ''    (L848, T718, R1360, B839)
+   |    |    | ['GroupBox4', 'Screen Size:GroupBox2']
+   |    |    |    |
+   |    |    |    | Toolbar - ''    (L848, T718, R1360, B750)
+   |    |    |    | ['ToolbarReload', 'Screen Size:Toolbar', 'Toolbar', 'Toolbar0', 'Toolbar1']
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Edit Resources'    (L850, T720, R879, B748)
+   |    |    |    |    | ['Button9', 'Edit Resources', 'Edit ResourcesButton']
+   |    |    |    |    | child_window(title="Edit Resources", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Reload'    (L879, T720, R908, B748)
+   |    |    |    |    | ['Button10', 'Reload', 'ReloadButton']
+   |    |    |    |    | child_window(title="Reload", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | GroupBox - ''    (L908, T720, R1358, B748)
+   |    |    |    |    | ['GroupBox5', 'Screen Size:GroupBox3']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - ''    (L1133, T724, R1358, B744)
+   |    |    |    |    |    | ['Edit', 'Screen Size:Edit', 'Edit0', 'Edit1']
+   |    |    |    |
+   |    |    |    | Custom - ''    (L848, T750, R1360, B839)
+   |    |    |    | ['Screen Size:Custom2', 'Custom2']
+   |    |    |    |    |
+   |    |    |    |    | ListBox - ''    (L1107, T750, R1360, B839)
+   |    |    |    |    | ['ListBox3', 'Screen Size:ListBox']
+   |    |    |    |    |
+   |    |    |    |    | TreeView - ''    (L848, T750, R1102, B839)
+   |    |    |    |    | ['Screen Size:TreeView', 'TreeView2']
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L1102, T750, R1107, B839)
+   |    |    |    |    | ['Thumb', 'Screen Size:Thumb', 'Thumb0', 'Thumb1', 'Screen Size:Thumb0', 'Screen Size:Thumb1']
+   |    |
+   |    | Button - 'Close'    (L1338, T697, R1359, B717)
+   |    | ['Button11', 'CloseButton4', 'Close4']
+   |    | child_window(title="Close", auto_id="MDIWindow.qt_designer_resourceeditor_dock.qt_dockwidget_closebutton", control_type="Button")
+   |    |
+   |    | Button - 'Float'    (L1316, T697, R1337, B717)
+   |    | ['Button12', 'FloatButton', 'Float', 'FloatButton0', 'FloatButton1', 'Float0', 'Float1']
+   |    | child_window(title="Float", auto_id="MDIWindow.qt_designer_resourceeditor_dock.qt_dockwidget_floatbutton", control_type="Button")
+   |
+   | Dialog - 'Action Editor'    (L-612, T-441, R-100, B-314)
+   | ['Action Editor', 'Dialog5', 'Action EditorDialog', 'Action Editor0', 'Action Editor1']
+   | child_window(title="Action Editor", auto_id="MDIWindow.qt_designer_actioneditor_dock", control_type="Window")
+   |    |
+   |    | Dialog - ''    (L-612, T-419, R-100, B-314)
+   |    | ['Dialog6']
+   |    | child_window(auto_id="MDIWindow.qt_designer_actioneditor_dock.qt_designer_actioneditor", control_type="Window")
+   |    |    |
+   |    |    | GroupBox - ''    (L-612, T-419, R-100, B-314)
+   |    |    | ['GroupBox6']
+   |    |    |    |
+   |    |    |    | Toolbar - ''    (L-612, T-419, R-100, B-387)
+   |    |    |    | ['ToolbarConfigure Action Editor', 'ToolbarDelete', 'Toolbar2', 'ToolbarPaste', 'ToolbarCopy']
+   |    |    |    |    |
+   |    |    |    |    | Button - 'New'    (L-610, T-417, R-581, B-389)
+   |    |    |    |    | ['Button13', 'New', 'NewButton', 'New0', 'New1', 'NewButton0', 'NewButton1']
+   |    |    |    |    | child_window(title="New", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Copy'    (L-581, T-417, R-552, B-389)
+   |    |    |    |    | ['Button14', 'Copy', 'CopyButton']
+   |    |    |    |    | child_window(title="Copy", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Paste'    (L-552, T-417, R-523, B-389)
+   |    |    |    |    | ['Button15', 'PasteButton', 'Paste']
+   |    |    |    |    | child_window(title="Paste", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Delete'    (L-523, T-417, R-494, B-389)
+   |    |    |    |    | ['Button16', 'DeleteButton', 'Delete']
+   |    |    |    |    | child_window(title="Delete", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Configure Action Editor'    (L-494, T-417, R-465, B-389)
+   |    |    |    |    | ['Button17', 'Configure Action EditorButton', 'Configure Action Editor']
+   |    |    |    |    | child_window(title="Configure Action Editor", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | GroupBox - ''    (L-465, T-417, R-102, B-389)
+   |    |    |    |    | ['GroupBox7']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - ''    (L-283, T-413, R-102, B-393)
+   |    |    |    |    |    | ['Edit2']
+   |    |    |    |
+   |    |    |    | Custom - ''    (L-612, T-387, R-100, B-314)
+   |    |    |    | ['Custom3']
+   |    |    |    |    |
+   |    |    |    |    | Custom - ''    (L-612, T-387, R-100, B-314)
+   |    |    |    |    | ['Custom4']
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ListBox4']
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeView - ''    (L-612, T-387, R-100, B-314)
+   |    |    |    |    |    | ['TreeView3']
+   |    |
+   |    | Button - 'Close'    (L-122, T-440, R-101, B-420)
+   |    | ['Button18', 'CloseButton5', 'Close5']
+   |    | child_window(title="Close", auto_id="MDIWindow.qt_designer_actioneditor_dock.qt_dockwidget_closebutton", control_type="Button")
+   |    |
+   |    | Button - 'Float'    (L-144, T-440, R-123, B-420)
+   |    | ['Button19', 'FloatButton2', 'Float2']
+   |    | child_window(title="Float", auto_id="MDIWindow.qt_designer_actioneditor_dock.qt_dockwidget_floatbutton", control_type="Button")
+   |
+   | Dialog - 'Signal/Slot Editor'    (L-612, T-439, R-100, B-314)
+   | ['Dialog7', 'Signal/Slot Editor', 'Signal/Slot EditorDialog', 'Signal/Slot Editor0', 'Signal/Slot Editor1']
+   | child_window(title="Signal/Slot Editor", auto_id="MDIWindow.qt_designer_signalsloteditor_dock", control_type="Window")
+   |    |
+   |    | Dialog - ''    (L-612, T-417, R-100, B-314)
+   |    | ['Dialog8']
+   |    | child_window(auto_id="MDIWindow.qt_designer_signalsloteditor_dock.qt_designer_signalsloteditor", control_type="Window")
+   |    |    |
+   |    |    | GroupBox - ''    (L-612, T-417, R-100, B-314)
+   |    |    | ['GroupBox8']
+   |    |    |    |
+   |    |    |    | Toolbar - ''    (L-612, T-417, R-100, B-385)
+   |    |    |    | ['Toolbar3']
+   |    |    |    |    |
+   |    |    |    |    | Button - ''    (L-610, T-415, R-581, B-387)
+   |    |    |    |    | ['Button20']
+   |    |    |    |    |
+   |    |    |    |    | Button - ''    (L-581, T-415, R-552, B-387)
+   |    |    |    |    | ['Button21']
+   |    |    |    |
+   |    |    |    | TreeView - ''    (L-612, T-385, R-100, B-314)
+   |    |    |    | ['TreeView4']
+   |    |
+   |    | Button - 'Close'    (L-122, T-438, R-101, B-418)
+   |    | ['Button22', 'CloseButton6', 'Close6']
+   |    | child_window(title="Close", auto_id="MDIWindow.qt_designer_signalsloteditor_dock.qt_dockwidget_closebutton", control_type="Button")
+   |    |
+   |    | Button - 'Float'    (L-144, T-438, R-123, B-418)
+   |    | ['Button23', 'FloatButton3', 'Float3']
+   |    | child_window(title="Float", auto_id="MDIWindow.qt_designer_signalsloteditor_dock.qt_dockwidget_floatbutton", control_type="Button")
+   |
+   | Toolbar - 'File'    (L400, T207, R505, B241)
+   | ['FileToolbar', 'File', 'Toolbar4', 'File0', 'File1']
+   | child_window(title="File", auto_id="MDIWindow.fileToolBar", control_type="ToolBar")
+   |    |
+   |    | Button - 'New'    (L410, T209, R441, B239)
+   |    | ['Button24', 'New2', 'NewButton2']
+   |    | child_window(title="New", control_type="Button")
+   |    |
+   |    | Button - 'Open'    (L441, T209, R472, B239)
+   |    | ['Button25', 'OpenButton', 'Open']
+   |    | child_window(title="Open", control_type="Button")
+   |    |
+   |    | Button - 'Save'    (L472, T209, R503, B239)
+   |    | ['Button26', 'SaveButton', 'Save']
+   |    | child_window(title="Save", control_type="Button")
+   |
+   | Toolbar - 'Edit'    (L505, T207, R579, B241)
+   | ['EditToolbar', 'Edit3', 'Toolbar5']
+   | child_window(title="Edit", auto_id="MDIWindow.editToolBar", control_type="ToolBar")
+   |    |
+   |    | Button - 'Send to Back'    (L515, T209, R546, B239)
+   |    | ['Button27', 'Send to BackButton', 'Send to Back']
+   |    | child_window(title="Send to Back", control_type="Button")
+   |    |
+   |    | Button - 'Bring to Front'    (L546, T209, R577, B239)
+   |    | ['Button28', 'Bring to FrontButton', 'Bring to Front']
+   |    | child_window(title="Bring to Front", control_type="Button")
+   |
+   | Toolbar - 'Tools'    (L579, T207, R715, B241)
+   | ['ToolsToolbar', 'Tools', 'Toolbar6']
+   | child_window(title="Tools", auto_id="MDIWindow.toolsToolBar", control_type="ToolBar")
+   |    |
+   |    | CheckBox - 'Edit Widgets'    (L589, T209, R620, B239)
+   |    | ['Edit WidgetsCheckBox', 'Edit Widgets', 'CheckBox2']
+   |    | child_window(title="Edit Widgets", control_type="CheckBox")
+   |    |
+   |    | CheckBox - 'Edit Signals/Slots'    (L620, T209, R651, B239)
+   |    | ['Edit Signals/SlotsCheckBox', 'CheckBox3', 'Edit Signals/Slots']
+   |    | child_window(title="Edit Signals/Slots", control_type="CheckBox")
+   |    |
+   |    | CheckBox - 'Edit Buddies'    (L651, T209, R682, B239)
+   |    | ['Edit BuddiesCheckBox', 'CheckBox4', 'Edit Buddies']
+   |    | child_window(title="Edit Buddies", control_type="CheckBox")
+   |    |
+   |    | CheckBox - 'Edit Tab Order'    (L682, T209, R713, B239)
+   |    | ['Edit Tab Order', 'CheckBox5', 'Edit Tab OrderCheckBox']
+   |    | child_window(title="Edit Tab Order", control_type="CheckBox")
+   |
+   | Toolbar - 'Form'    (L715, T207, R1360, B241)
+   | ['Toolbar7', 'FormToolbar', 'Form', 'Form0', 'Form1']
+   | child_window(title="Form", auto_id="MDIWindow.formToolBar", control_type="ToolBar")
+   |    |
+   |    | Button - 'Lay Out Horizontally'    (L725, T209, R756, B239)
+   |    | ['Button29', 'Lay Out Horizontally', 'Lay Out HorizontallyButton']
+   |    | child_window(title="Lay Out Horizontally", control_type="Button")
+   |    |
+   |    | Button - 'Lay Out Vertically'    (L756, T209, R787, B239)
+   |    | ['Button30', 'Lay Out Vertically', 'Lay Out VerticallyButton']
+   |    | child_window(title="Lay Out Vertically", control_type="Button")
+   |    |
+   |    | Button - 'Lay Out Horizontally in Splitter'    (L787, T209, R818, B239)
+   |    | ['Button31', 'Lay Out Horizontally in SplitterButton', 'Lay Out Horizontally in Splitter']
+   |    | child_window(title="Lay Out Horizontally in Splitter", control_type="Button")
+   |    |
+   |    | Button - 'Lay Out Vertically in Splitter'    (L818, T209, R849, B239)
+   |    | ['Button32', 'Lay Out Vertically in SplitterButton', 'Lay Out Vertically in Splitter']
+   |    | child_window(title="Lay Out Vertically in Splitter", control_type="Button")
+   |    |
+   |    | Button - 'Lay Out in a Grid'    (L849, T209, R880, B239)
+   |    | ['Button33', 'Lay Out in a Grid', 'Lay Out in a GridButton']
+   |    | child_window(title="Lay Out in a Grid", control_type="Button")
+   |    |
+   |    | Button - 'Lay Out in a Form Layout'    (L880, T209, R911, B239)
+   |    | ['Button34', 'Lay Out in a Form Layout', 'Lay Out in a Form LayoutButton']
+   |    | child_window(title="Lay Out in a Form Layout", control_type="Button")
+   |    |
+   |    | Button - 'Break Layout'    (L911, T209, R942, B239)
+   |    | ['Button35', 'Break Layout', 'Break LayoutButton']
+   |    | child_window(title="Break Layout", control_type="Button")
+   |    |
+   |    | Button - 'Adjust Size'    (L942, T209, R973, B239)
+   |    | ['Button36', 'Adjust SizeButton', 'Adjust Size']
+   |    | child_window(title="Adjust Size", control_type="Button")
+   |
+   | StatusBar - ''    (L400, T860, R1360, B880)
+   | ['Screen Size:StatusBar', 'StatusBar']
+   |    |
+   |    | Thumb - ''    (L1347, T867, R1360, B880)
+   |    | ['Thumb2', 'Screen Size:Thumb2']
+   |
+   | Dialog - 'Widget Box'    (L400, T241, R656, B860)
+   | ['Widget Box', 'Dialog9', 'Widget BoxDialog']
+   | child_window(title="Widget Box", auto_id="MDIWindow.qt_designer_widgetbox_dock", control_type="Window")
+   |    |
+   |    | Dialog - ''    (L400, T263, R656, B860)
+   |    | ['Dialog10']
+   |    | child_window(auto_id="MDIWindow.qt_designer_widgetbox_dock.qt_designer_widgetbox", control_type="Window")
+   |    |    |
+   |    |    | GroupBox - ''    (L400, T263, R656, B860)
+   |    |    | ['GroupBox9']
+   |    |    |    |
+   |    |    |    | Toolbar - ''    (L400, T263, R656, B287)
+   |    |    |    | ['Toolbar8']
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L402, T265, R654, B285)
+   |    |    |    |    | ['Edit4']
+   |    |    |    |
+   |    |    |    | TreeView - ''    (L400, T287, R656, B860)
+   |    |    |    | ['TreeView5']
+   |    |
+   |    | Button - 'Close'    (L634, T242, R655, B262)
+   |    | ['Button37', 'CloseButton7', 'Close7']
+   |    | child_window(title="Close", auto_id="MDIWindow.qt_designer_widgetbox_dock.qt_dockwidget_closebutton", control_type="Button")
+   |    |
+   |    | Button - 'Float'    (L612, T242, R633, B262)
+   |    | ['Button38', 'FloatButton4', 'Float4']
+   |    | child_window(title="Float", auto_id="MDIWindow.qt_designer_widgetbox_dock.qt_dockwidget_floatbutton", control_type="Button")
+   |
+   | Dialog - 'Object Inspector'    (L848, T241, R1360, B365)
+   | ['Object Inspector', 'Object InspectorDialog', 'Dialog11']
+   | child_window(title="Object Inspector", auto_id="MDIWindow.qt_designer_objectinspector_dock", control_type="Window")
+   |    |
+   |    | Dialog - ''    (L848, T263, R1360, B365)
+   |    | ['Dialog12']
+   |    | child_window(auto_id="MDIWindow.qt_designer_objectinspector_dock.qt_designer_objectinspector", control_type="Window")
+   |    |    |
+   |    |    | GroupBox - ''    (L848, T263, R1360, B365)
+   |    |    | ['GroupBox10']
+   |    |    |    |
+   |    |    |    | Edit - ''    (L848, T263, R1360, B283)
+   |    |    |    | ['Edit5']
+   |    |    |    |
+   |    |    |    | TreeView - ''    (L848, T289, R1360, B365)
+   |    |    |    | ['TreeView6']
+   |    |
+   |    | Button - 'Close'    (L1338, T242, R1359, B262)
+   |    | ['Button39', 'CloseButton8', 'Close8']
+   |    | child_window(title="Close", auto_id="MDIWindow.qt_designer_objectinspector_dock.qt_dockwidget_closebutton", control_type="Button")
+   |    |
+   |    | Button - 'Float'    (L1316, T242, R1337, B262)
+   |    | ['Button40', 'FloatButton5', 'Float5']
+   |    | child_window(title="Float", auto_id="MDIWindow.qt_designer_objectinspector_dock.qt_dockwidget_floatbutton", control_type="Button")
+   |
+   | Dialog - 'Property Editor'    (L848, T369, R1360, B692)
+   | ['Property EditorDialog', 'Dialog13', 'Property Editor']
+   | child_window(title="Property Editor", auto_id="MDIWindow.qt_designer_propertyeditor_dock", control_type="Window")
+   |    |
+   |    | Dialog - ''    (L848, T391, R1360, B692)
+   |    | ['Device:Dialog', 'Dialog14']
+   |    | child_window(auto_id="MDIWindow.qt_designer_propertyeditor_dock.qt_designer_propertyeditor", control_type="Window")
+   |    |    |
+   |    |    | GroupBox - ''    (L848, T391, R1360, B692)
+   |    |    | ['GroupBox11', 'Device:GroupBox2']
+   |    |    |    |
+   |    |    |    | Toolbar - ''    (L848, T391, R1360, B425)
+   |    |    |    | ['ToolbarRemove Dynamic Property', 'ToolbarConfigure Property Editor', 'ToolbarAdd Dynamic Property', 'Toolbar9']
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L850, T398, R1265, B418)
+   |    |    |    |    | ['Edit6']
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Add Dynamic Property'    (L1265, T393, R1296, B423)
+   |    |    |    |    | ['Button41', 'Add Dynamic PropertyButton', 'Add Dynamic Property']
+   |    |    |    |    | child_window(title="Add Dynamic Property", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Remove Dynamic Property'    (L1296, T393, R1327, B423)
+   |    |    |    |    | ['Button42', 'Remove Dynamic PropertyButton', 'Remove Dynamic Property']
+   |    |    |    |    | child_window(title="Remove Dynamic Property", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Configure Property Editor'    (L1327, T393, R1358, B423)
+   |    |    |    |    | ['Button43', 'Configure Property EditorButton', 'Configure Property Editor']
+   |    |    |    |    | child_window(title="Configure Property Editor", control_type="Button")
+   |    |    |    |
+   |    |    |    | Custom - ''    (L848, T426, R1360, B692)
+   |    |    |    | ['Device:Custom', 'Custom5']
+   |    |    |    |    |
+   |    |    |    |    | GroupBox - ''    (L848, T426, R1360, B692)
+   |    |    |    |    | ['GroupBox12', 'Device:GroupBox3']
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeView - ''    (L848, T426, R1360, B692)
+   |    |    |    |    |    | ['TreeView7', 'Device:TreeView']
+   |    |
+   |    | Button - 'Close'    (L1338, T370, R1359, B390)
+   |    | ['Button44', 'CloseButton9', 'Close9']
+   |    | child_window(title="Close", auto_id="MDIWindow.qt_designer_propertyeditor_dock.qt_dockwidget_closebutton", control_type="Button")
+   |    |
+   |    | Button - 'Float'    (L1316, T370, R1337, B390)
+   |    | ['Button45', 'FloatButton6', 'Float6']
+   |    | child_window(title="Float", auto_id="MDIWindow.qt_designer_propertyeditor_dock.qt_dockwidget_floatbutton", control_type="Button")
+   |
+   | TabControl - 'Resource Browser'    (L848, T839, R1360, B860)
+   | ['TabControl', 'Resource BrowserTabControl', 'Resource Browser2']
+   | child_window(title="Resource Browser", control_type="Tab")
+   |    |
+   |    | TabItem - 'Signal/Slot Editor'    (L848, T839, R953, B860)
+   |    | ['TabItem', 'Signal/Slot Editor2', 'Signal/Slot EditorTabItem', 'TabItem0', 'TabItem1']
+   |    | child_window(title="Signal/Slot Editor", control_type="TabItem")
+   |    |
+   |    | TabItem - 'Action Editor'    (L953, T839, R1038, B860)
+   |    | ['TabItem2', 'Action EditorTabItem', 'Action Editor2']
+   |    | child_window(title="Action Editor", control_type="TabItem")
+   |    |
+   |    | TabItem - 'Resource Browser'    (L1038, T839, R1149, B860)
+   |    | ['TabItem3', 'Resource Browser3', 'Resource BrowserTabItem']
+   |    | child_window(title="Resource Browser", control_type="TabItem")
+   |
+   | Custom - ''    (L660, T241, R844, B860)
+   | ['Custom6']
+   |
+   | Menu - ''    (L400, T186, R1360, B207)
+   | ['Menu3']
+   |    |
+   |    | MenuItem - 'File'    (L400, T186, R434, B206)
+   |    | ['MenuItem3', 'File2', 'FileMenuItem']
+   |    | child_window(title="File", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Edit'    (L434, T186, R470, B206)
+   |    | ['MenuItem4', 'Edit7', 'EditMenuItem']
+   |    | child_window(title="Edit", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Form'    (L470, T186, R514, B206)
+   |    | ['FormMenuItem', 'MenuItem5', 'Form2']
+   |    | child_window(title="Form", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'View'    (L514, T186, R555, B206)
+   |    | ['View', 'ViewMenuItem', 'MenuItem6']
+   |    | child_window(title="View", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Settings'    (L555, T186, R613, B206)
+   |    | ['MenuItem7', 'Settings', 'SettingsMenuItem']
+   |    | child_window(title="Settings", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Window'    (L613, T186, R673, B206)
+   |    | ['WindowMenuItem', 'MenuItem8', 'Window']
+   |    | child_window(title="Window", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Help'    (L673, T186, R714, B206)
+   |    | ['HelpMenuItem', 'Help', 'MenuItem9']
+   |    | child_window(title="Help", control_type="MenuItem")
